@@ -28,7 +28,7 @@ LOGFILE=/var/log/${NAME}.log
 SCRIPTNAME=/etc/init.d/${NAME}
 PID_DIR=/var/run
 PID_FILE=${PID_DIR}/${ProgramName}.pid
-version="2.0"
+version="2.1"
 RET_VAL=0
 
 [ -x ${BIN} ] || exit 0
